@@ -1,0 +1,242 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>辇道增七的小站</title><meta name="author" content="辇道增七"><meta name="copyright" content="辇道增七"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><meta name="description" content="敏感且外向:)">
+<meta property="og:type" content="website">
+<meta property="og:title" content="辇道增七的小站">
+<meta property="og:url" content="http://example.com/page/2/index.html">
+<meta property="og:site_name" content="辇道增七的小站">
+<meta property="og:description" content="敏感且外向:)">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://blogblogg.oss-cn-chengdu.aliyuncs.com/me.jpg">
+<meta property="article:author" content="辇道增七">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://blogblogg.oss-cn-chengdu.aliyuncs.com/me.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/page/2/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin=""/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web" media="print" onload="this.media='all'"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: true,
+  islazyload: false,
+  isanchor: false
+};
+
+var saveToLocal = {
+  set: function setWithExpiry(key, value, ttl) {
+    const now = new Date()
+    const expiryDay = ttl * 86400000
+    const item = {
+      value: value,
+      expiry: now.getTime() + expiryDay,
+    }
+    localStorage.setItem(key, JSON.stringify(item))
+  },
+
+  get: function getWithExpiry(key) {
+    const itemStr = localStorage.getItem(key)
+
+    if (!itemStr) {
+      return undefined
+    }
+    const item = JSON.parse(itemStr)
+    const now = new Date()
+
+    if (now.getTime() > item.expiry) {
+      localStorage.removeItem(key)
+      return undefined
+    }
+    return item.value
+  }
+}
+
+// https://stackoverflow.com/questions/16839698/jquery-getscript-alternative-in-native-javascript
+const getScript = url => new Promise((resolve, reject) => {
+  const script = document.createElement('script')
+  script.src = url
+  script.async = true
+  script.onerror = reject
+  script.onload = script.onreadystatechange = function() {
+    const loadState = this.readyState
+    if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+    script.onload = script.onreadystatechange = null
+    resolve()
+  }
+  document.head.appendChild(script)
+})</script><script id="config_change">var GLOBAL_CONFIG_SITE = { 
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2021-01-13 21:53:34'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(function () {  window.activateDarkMode = function () {
+    document.documentElement.setAttribute('data-theme', 'dark')
+    if (document.querySelector('meta[name="theme-color"]') !== null) {
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+    }
+  }
+  window.activateLightMode = function () {
+    document.documentElement.setAttribute('data-theme', 'light')
+   if (document.querySelector('meta[name="theme-color"]') !== null) {
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+    }
+  }
+  const autoChangeMode = 'false'
+  const t = saveToLocal.get('theme')
+  if (autoChangeMode === '1') {
+    const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+    const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+    const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+    const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+    if (t === undefined) {
+      if (isLightMode) activateLightMode()
+      else if (isDarkMode) activateDarkMode()
+      else if (isNotSpecified || hasNoSupport) {
+        const now = new Date()
+        const hour = now.getHours()
+        const isNight = hour <= 6 || hour >= 18
+        isNight ? activateDarkMode() : activateLightMode()
+      }
+      window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+        if (saveToLocal.get('theme') === undefined) {
+          e.matches ? activateDarkMode() : activateLightMode()
+        }
+      })
+    } else if (t === 'light') activateLightMode()
+    else activateDarkMode()
+  } else if (autoChangeMode === '2') {
+    const now = new Date()
+    const hour = now.getHours()
+    const isNight = hour <= 6 || hour >= 18
+    if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+    else if (t === 'light') activateLightMode()
+    else activateDarkMode()
+  } else {
+    if (t === 'dark') activateDarkMode()
+    else if (t === 'light') activateLightMode()
+  }const asideStatus = saveToLocal.get('aside-status')
+if (asideStatus !== undefined) {
+   if (asideStatus === 'hide') {
+     document.documentElement.classList.add('hide-aside')
+   } else {
+     document.documentElement.classList.remove('hide-aside')
+   }
+}})()</script><meta name="generator" content="Hexo 5.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="https://blogblogg.oss-cn-chengdu.aliyuncs.com/me.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">12</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">16</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/notes/"><i class="fa-fw fas fa-book"></i><span> 碎语</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 朋友们</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div id="body-wrap"><header class="full_page" id="page-header" style="background-image: url(https://blogblogg.oss-cn-chengdu.aliyuncs.com/xlarge_SwAn_812a0000a05f1e83.jpg)"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">辇道增七的小站</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/notes/"><i class="fa-fw fas fa-book"></i><span> 碎语</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 朋友们</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">辇道增七的小站</h1><div id="site-subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://github.com/WinterBokeh" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="https://wpa.qq.com/msgrd?v=3&amp;uin=2082881702&amp;site=qq&amp;menu=yes" target="_blank" title="QQ"><i class="fab fa-qq"></i></a><a class="social-icon" href="https://www.zhihu.com/people/hua-shi-15-64" target="_blank" title="知乎"><i class="fab fa-zhihu"></i></a><a class="social-icon" href="https://space.bilibili.com/24183207" target="_blank" title="bilibili"><i class="fas fa-tv"></i></a><a class="social-icon" href="https://music.163.com/#/user/home?id=419341613" target="_blank" title="网抑云音乐"><i class="fas fa-music"></i></a><a class="social-icon" href="https://twitter.com/wu_holden" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2020/08/27/%E4%B8%AA%E4%BA%BAIT%E6%96%B9%E5%90%91%E5%88%9D%E5%AE%9A%E4%BD%8D/" title="个人IT方向初定位">     <img class="post_bg" src="https://blogblogg.oss-cn-chengdu.aliyuncs.com/yali.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="个人IT方向初定位"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/08/27/%E4%B8%AA%E4%BA%BAIT%E6%96%B9%E5%90%91%E5%88%9D%E5%AE%9A%E4%BD%8D/" title="个人IT方向初定位">个人IT方向初定位</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2020-08-26T23:39:54.000Z" title="发表于 2020-08-27 07:39:54">2020-08-27</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/%E5%B1%95%E6%9C%9B%E4%B8%8E%E5%8F%8D%E6%80%9D/">展望与反思</a></span></div><div class="content">
+做对的事情比把事情做对更重要。
+
+自高三暑假以来，最令自己兴奋的事莫过于被重邮软件工程系录取。
+回想起刚放暑假那几天的无奈：
+明明终于有了时间学习python，却又害怕被非IT专业录取，被家人指责不务正业。
+而得知录取消息后，每天便憧憬着可以坐在书桌上系统学习软件工程——这令我快乐。
+这印证了一个道理: 做对的事情比把事情做对更重要，因兴趣使然选择了对的专业，事情自然可以做对。
+而IT行业及其庞大，又可细分出前端，后端，分布式，移动开发等等等岗位，每一岗位的技术侧重点有所不同。
+但是无可置疑的是，没有经年累月的侧重发展，哪一个岗位都不能做到出类拔萃。
+掌握基础技能后，侧重发展越早进行越好，因此有必要对自身IT方向进行定位。
+
+性格培养能力，能力决定方向
+
+反思初中高中生涯，我不是那种可以闷下头静心读书的学生（至少文化课方面），而三分钟热度也让我万事都难以精通。
+但我的长处在于人际交往能力，经营能力，我能对新事物保持好奇心，我善于比较与总结。
+据此特点，可能产品经理岗位最适合我。
+若想成为合格的产品经理，产品思维和产品经验不可或缺。
+从产品思维的角度来说，思维难以一蹴而就，这需要在生活 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2020/08/15/%E5%BE%80%E6%98%94%E7%9A%84%E6%A2%A6/" title="往昔的梦">     <img class="post_bg" src="https://blogblogg.oss-cn-chengdu.aliyuncs.com/old.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="往昔的梦"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/08/15/%E5%BE%80%E6%98%94%E7%9A%84%E6%A2%A6/" title="往昔的梦">往昔的梦</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2020-08-15T12:23:06.000Z" title="发表于 2020-08-15 20:23:06">2020-08-15</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a></span></div><div class="content">清晨，打着哈欠把最后一件衣服赛进背包里，楼下的车已经在向我闪烁。
+再回头看一眼熟悉的街道，只有几个学生零落的身影，我从他们身边穿过，坐入了车中。
+“又一个大学生走了呢。” “今后不用早起可真幸福。”
+汽车轰隆隆启动，我在这座小城的学生时代就这样结束了。
+目前为止，我的学生时代是什么样呢？
+突然有种想写些什么的冲动，翻身抽出笔记本，打出了下面这段带着困意的文字。
+
+ 一
+回忆里步入小学的校门，一切都呈现出暖黄的色调。
+教学楼是暖黄色的，冬天总爱用醒目的白雪在墙上涂鸦。
+泥土地是暖黄色的，盘膝坐着就能来一盘三国杀。
+夕阳染黄了课桌上的《漫画世界》，lmy的书借了总是不还。
+蹭来的赛尔号还是登不上去，
+sxy爱向妈妈告状，
+周末兴趣班要怎么翘掉呢？
+这里像一张古老的羊皮纸，美好而朦胧。
+ 二
+初中像一杯鸡尾酒，入口清淡，回味悠长。
+摸着黑起床，耳边响起了《夜的钢琴曲》，就着琴声嚼着热乎的手抓饼。
+&quot;先帝创业未伴而中道崩殂……”
+还没上楼，隔壁的清北班就传来了梦呓般的读书声，
+吱的一声推开门，我们班的欢声笑语在短暂暂停又后再度响起。
+和她坐前后桌总是这么开心呢。她递给了我一颗糖。明明 ...</div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span></div></nav></div><div class="aside_content" id="aside_content"><div class="card-widget card-info"><div class="card-content"><div class="card-info-avatar is-center"><img class="avatar-img" src="https://blogblogg.oss-cn-chengdu.aliyuncs.com/me.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">辇道增七</div><div class="author-info__description">敏感且外向:)</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">12</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">标签</div><div class="length-num">16</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/WinterBokeh"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/WinterBokeh" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="https://wpa.qq.com/msgrd?v=3&amp;uin=2082881702&amp;site=qq&amp;menu=yes" target="_blank" title="QQ"><i class="fab fa-qq"></i></a><a class="social-icon" href="https://www.zhihu.com/people/hua-shi-15-64" target="_blank" title="知乎"><i class="fab fa-zhihu"></i></a><a class="social-icon" href="https://space.bilibili.com/24183207" target="_blank" title="bilibili"><i class="fas fa-tv"></i></a><a class="social-icon" href="https://music.163.com/#/user/home?id=419341613" target="_blank" title="网抑云音乐"><i class="fas fa-music"></i></a><a class="social-icon" href="https://twitter.com/wu_holden" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></div></div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="card-content"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2021/01/13/%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%A1%AC%E4%BB%B6%E7%BB%84%E6%88%90/" title="基础硬件知识补足"><img src="https://blogblogg.oss-cn-chengdu.aliyuncs.com/intel.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="基础硬件知识补足"/></a><div class="content"><a class="title" href="/2021/01/13/%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%A1%AC%E4%BB%B6%E7%BB%84%E6%88%90/" title="基础硬件知识补足">基础硬件知识补足</a><time datetime="2021-01-13T08:32:42.000Z" title="发表于 2021-01-13 16:32:42">2021-01-13</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/01/13/3-Bits-Bytes-Intergers-cont/" title="3.Bits,Bytes,Intergers cont"><img src="https://blogblogg.oss-cn-chengdu.aliyuncs.com/CS.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="3.Bits,Bytes,Intergers cont"/></a><div class="content"><a class="title" href="/2021/01/13/3-Bits-Bytes-Intergers-cont/" title="3.Bits,Bytes,Intergers cont">3.Bits,Bytes,Intergers cont</a><time datetime="2021-01-13T05:24:27.000Z" title="发表于 2021-01-13 13:24:27">2021-01-13</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/01/12/0-%E8%AF%BE%E7%A8%8B%E7%9B%AE%E6%A0%87%E4%B8%8E%E8%AF%BE%E7%A8%8B%E5%86%85%E5%AE%B9/" title="第一章:概论"><img src="https://blogblogg.oss-cn-chengdu.aliyuncs.com/net.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="第一章:概论"/></a><div class="content"><a class="title" href="/2021/01/12/0-%E8%AF%BE%E7%A8%8B%E7%9B%AE%E6%A0%87%E4%B8%8E%E8%AF%BE%E7%A8%8B%E5%86%85%E5%AE%B9/" title="第一章:概论">第一章:概论</a><time datetime="2021-01-12T08:16:38.000Z" title="发表于 2021-01-12 16:16:38">2021-01-12</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/01/12/Bits-Bytes-Integer/" title="2.Bits,Bytes,Integer"><img src="https://blogblogg.oss-cn-chengdu.aliyuncs.com/CS.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="2.Bits,Bytes,Integer"/></a><div class="content"><a class="title" href="/2021/01/12/Bits-Bytes-Integer/" title="2.Bits,Bytes,Integer">2.Bits,Bytes,Integer</a><time datetime="2021-01-12T06:19:59.000Z" title="发表于 2021-01-12 14:19:59">2021-01-12</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/01/12/%E4%BD%BF%E7%94%A8katex%E6%B8%B2%E6%9F%93%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/" title="使用katex渲染数学公式"><img src="https://blogblogg.oss-cn-chengdu.aliyuncs.com/katex.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="使用katex渲染数学公式"/></a><div class="content"><a class="title" href="/2021/01/12/%E4%BD%BF%E7%94%A8katex%E6%B8%B2%E6%9F%93%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/" title="使用katex渲染数学公式">使用katex渲染数学公式</a><time datetime="2021-01-12T06:03:19.000Z" title="发表于 2021-01-12 14:03:19">2021-01-12</time></div></div></div></div></div><div class="card-widget card-categories"><div class="card-content"><div class="item-headline"><i class="fas fa-folder-open"></i><span>分类</span></div><ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%B1%95%E6%9C%9B%E4%B8%8E%E5%8F%8D%E6%80%9D/"><span class="card-category-list-name">展望与反思</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%8A%80%E6%9C%AF/"><span class="card-category-list-name">技术</span><span class="card-category-list-count">9</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E9%9A%8F%E7%AC%94/"><span class="card-category-list-name">随笔</span><span class="card-category-list-count">2</span></a></li>
+            
+            </ul></div></div><div class="card-widget card-tags"><div class="card-content"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/Computer-Systems/" style="font-size: 1.3em; color: #99a1ac">Computer Systems</a> <a href="/tags/go/" style="font-size: 1.3em; color: #99a1ac">go</a> <a href="/tags/java/" style="font-size: 1.1em; color: #999">java</a> <a href="/tags/katex/" style="font-size: 1.1em; color: #999">katex</a> <a href="/tags/markdown/" style="font-size: 1.1em; color: #999">markdown</a> <a href="/tags/vscode/" style="font-size: 1.1em; color: #999">vscode</a> <a href="/tags/%E5%8E%86%E5%8F%B2/" style="font-size: 1.1em; color: #999">历史</a> <a href="/tags/%E5%9B%9E%E5%BF%86/" style="font-size: 1.1em; color: #999">回忆</a> <a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" style="font-size: 1.5em; color: #99a9bf">学习笔记</a> <a href="/tags/%E5%B1%95%E6%9C%9B/" style="font-size: 1.1em; color: #999">展望</a> <a href="/tags/%E7%94%9F%E6%B4%BB/" style="font-size: 1.1em; color: #999">生活</a> <a href="/tags/%E7%A1%AC%E4%BB%B6/" style="font-size: 1.1em; color: #999">硬件</a> <a href="/tags/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/" style="font-size: 1.3em; color: #99a1ac">编程语言</a> <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" style="font-size: 1.1em; color: #999">计算机网络</a> <a href="/tags/%E8%B0%83%E8%AF%95/" style="font-size: 1.1em; color: #999">调试</a> <a href="/tags/%E9%9A%8F%E7%AC%94/" style="font-size: 1.1em; color: #999">随笔</a></div></div></div><div class="card-widget card-archives"><div class="card-content"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/01/"><span class="card-archive-list-date">一月 2021</span><span class="card-archive-list-count">5</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/10/"><span class="card-archive-list-date">十月 2020</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/09/"><span class="card-archive-list-date">九月 2020</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/08/"><span class="card-archive-list-date">八月 2020</span><span class="card-archive-list-count">3</span></a></li></ul></div></div><div class="card-widget card-webinfo"><div class="card-content"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">12</div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">19.6k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2021-01-13T13:53:30.847Z"></div></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2021 By 辇道增七</div><div class="footer_custom_text"><a href="icp链接"><span>皖ICP备2020015339号</span></a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"><script>function subtitleType () {
+  fetch('https://v1.hitokoto.cn')
+    .then(response => response.json())
+    .then(data => {
+      if (true) {
+        var from = '出自 ' + data.from
+        var sub = "".length == 0 ? new Array() : "".split(',')
+        var both = sub.unshift(data.hitokoto, from)
+        var typed = new Typed('#subtitle', {
+          strings: sub,
+          startDelay: 300,
+          typeSpeed: 150,
+          loop: true,
+          backSpeed: 50,
+        })
+      } else {
+        document.getElementById('subtitle').innerHTML = data.hitokoto
+      }
+    })
+}
+
+if (true) {
+  if (typeof Typed === 'function') {
+    subtitleType()
+  } else {
+    getScript('https://cdn.jsdelivr.net/npm/typed.js/lib/typed.min.js').then(subtitleType)
+  }
+} else {
+  subtitleType()
+}
+</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><canvas class="fireworks" mobile="false"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/fireworks.min.js"></script><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="true" data-click="true"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = true;
+document.body.addEventListener('input', POWERMODE);
+</script></div></body></html>
